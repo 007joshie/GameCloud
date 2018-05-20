@@ -1,0 +1,161 @@
+*{
+	padding : 0;
+	margin : 0;
+	border : 0;
+}
+
+.blended_grid{
+	display : block;
+	width : 960px;
+	overflow : auto;
+	margin : 30px auto 0 auto;
+	box-shadow: 0px 0px 20px #000000;
+}
+
+
+body {
+	background-image: url('../images/bg_img.jpg');
+}
+
+.header{
+	background-color : #4D5A87;
+	font-family: 'Montserrat', sans-serif;
+	float : left;
+	clear : none;
+	height : 250px;
+	width : 960px;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.left_menu{
+	padding-top: 70px;
+	background-color : #323E66;
+	font-family: 'Montserrat', sans-serif;
+	float : left;
+	clear : none;
+	height : 580px;
+	width : 200px;
+	border: 10px solid #4D5A87;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.content_divider{
+	background-color : #888888;
+	float : right;
+	clear : none;
+	height : 30px;
+	width : 960px;
+	opacity: 0.0;
+}
+
+.content{
+	background-color : #323E66;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	color: white;
+	float : right;
+	clear : none;
+	height : 630px;
+	width : 640px;
+	padding-top : 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	border: 10px solid #4D5A87;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+.content_img{
+	float : right;
+	height : 240px;
+	width : 260px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.content_img_pg1{
+	float : left;
+	height : 240px;
+	width : 260px;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+.content_img_pg2{
+	float : left;
+	height : 150px;
+	width : 200px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+
+.content_img_pg2_2{
+	float : right;
+	padding-bottom: 10px;
+	padding-right: 40px;
+}
+
+.footer{
+	background-color : none;
+	font-family: 'Montserrat', sans-serif;
+	clear : none;
+	height : 80px;
+	width : 100%;
+	opacity: 0.5;
+	text-align: center;
+	padding-top: 40px;
+	text-shadow: 0 0 10px #000000;
+	color: black;
+}
+
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height : 500px;
+	background-color: #323E66;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 0 8px 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #4D5A87;
+	color: white;
+}
+
+li a:active {
+	background-color: #1F2A4F;
+	color: white;
+	font-weight: bold;
+}
+
+.active{
+	background-color: #1F2A4F;
+	color: white;
+}
+
+.left_menu_img{
+	padding-top: 80px;
+}
+
+h2 {
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+h4:hover {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
